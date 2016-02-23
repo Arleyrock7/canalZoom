@@ -1,0 +1,305 @@
+body {
+  padding: 0px;
+  margin: 0px; }
+  body img {
+    margin-top: -10px; }
+  body .navbar-default {
+    background-color: #0F689B;
+    background-size: cover;
+    border-color: #0F689B;
+    padding: 10px; }
+    body .navbar-default #redes {
+      margin-top: 35px; }
+      body .navbar-default #redes ul li {
+        display: inline;
+        padding: 5px; }
+        body .navbar-default #redes ul li img {
+          width: 30px; }
+  body #principalSection {
+    background-image: url("../images/backgrounds/background.png");
+    background-size: cover;
+    height: 730px;
+    margin-top: 0px; }
+    body #principalSection #tituloDispositivos {
+      visibility: hidden; }
+    body #principalSection #moviles #movilPlayer {
+      visibility: hidden; }
+  body #vinculo {
+    color: white;
+    padding: 5px;
+    font-size: 19px;
+    text-align: right;
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: 100; }
+    body #vinculo a {
+      color: white;
+      padding: 5px;
+      font-size: 19px;
+      text-align: right;
+      margin-top: 25px;
+      text-decoration: none;
+      font-weight: 100; }
+  body #titulo {
+    color: white;
+    margin-top: 120px;
+    padding: 10px;
+    font-size: 47px; }
+
+#entidades {
+  background-color: #0f689b; }
+  #entidades img {
+    margin-top: -190px; }
+
+p {
+  color: white; }
+
+footer {
+  background-color: #0C3C51;
+  background-size: cover;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  footer hr {
+    width: 100%; }
+  footer #redes {
+    margin-top: 0px;
+    margin-left: -45px; }
+    footer #redes ul li {
+      display: inline;
+      padding: 5px; }
+      footer #redes ul li img {
+        width: 30px; }
+  footer #compania img {
+    padding: 10px; }
+  footer #mailTo a {
+    color: #1AA2DC; }
+    footer #mailTo a:hover {
+      color: gray; }
+
+h2 {
+  color: white; }
+
+/* Large desktops and laptops */
+/* Large desktops and laptops */
+/* Large desktops and laptops */
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+@media (min-width: 990px) and (max-width: 1199px) {
+  body img {
+    margin-top: 8px; }
+  body .navbar-default {
+    margin-top: 0px; }
+    body .navbar-default ul li {
+      display: inline;
+      padding: 5px; }
+      body .navbar-default ul li img {
+        width: 30px; }
+    body .navbar-default #texto #texto_1 {
+      margin-top: 20px; }
+    body .navbar-default #numero {
+      margin-top: 30px;
+      font-size: 25px; }
+    body .navbar-default #vinculo {
+      margin-top: 40px; }
+  body #principalSection {
+    height: 700px;
+    margin-top: 0px; }
+    body #principalSection #tituloDispositivos {
+      visibility: hidden; }
+    body #principalSection #moviles {
+      margin-top: 20px; }
+      body #principalSection #moviles #movilPlayer {
+        margin-top: 20px;
+        visibility: hidden; }
+  body #titulo {
+    margin-top: 150px; }
+  body iframe {
+    margin-top: 10px;
+    height: 350px;
+    width: 65%;
+    border: none;
+    background-color: #C6C6C5; }
+
+  footer #redes {
+    margin-top: -15px;
+    margin-left: -45px; }
+    footer #redes ul li {
+      display: inline;
+      padding: 5px; }
+      footer #redes ul li img {
+        width: 30px; }
+  footer #compania img {
+    width: 120px;
+    margin-top: -10px; } }
+/* Phones with resolutions high -- Portrait tablets and small desktops IMPORTANT SMARTPHONE SIZE */
+@media (min-width: 768px) and (max-width: 991px) {
+  body img {
+    margin-top: 6px; }
+  body .navbar-default {
+    margin-top: 0px; }
+    body .navbar-default ul {
+      visibility: hidden; }
+      body .navbar-default ul li {
+        display: inline;
+        padding: 5px; }
+        body .navbar-default ul li img {
+          width: 30px; }
+    body .navbar-default #vinculo {
+      visibility: hidden; }
+  body #principalSection {
+    height: 750px;
+    margin-top: 0px; }
+    body #principalSection #tituloDispositivos {
+      font-size: 50px;
+      margin-top: -440px;
+      visibility: visible; }
+    body #principalSection #moviles {
+      margin-top: 100px; }
+      body #principalSection #moviles #movilPlayer {
+        width: 200px;
+        margin-top: -20px;
+        visibility: visible;
+        padding: 20px; }
+    body #principalSection #titulo {
+      font-size: 80px;
+      margin-top: 133px; }
+    body #principalSection iframe {
+      visibility: hidden;
+      margin-top: 10px;
+      height: 470px;
+      width: 100%; }
+  body #entidades {
+    background-color: #0F689B;
+    height: 200px; }
+    body #entidades img {
+      margin-top: 80px; }
+
+  footer #logoZoom {
+    margin-top: -20px;
+    width: 30%; }
+  footer #compania img {
+    width: 30%;
+    margin: -5px; }
+  footer #redes {
+    margin-top: -15px;
+    margin-left: -45px; }
+    footer #redes ul li {
+      display: inline;
+      padding: 5px; }
+      footer #redes ul li img {
+        width: 100px; }
+  footer #compania img {
+    width: 400px;
+    padding-top: 20px; }
+  footer p {
+    font-size: 40px; }
+  footer a {
+    font-size: 40px; } }
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  body img {
+    margin-top: 8px; }
+  body .navbar-default {
+    height: 125px;
+    margin-top: 0px; }
+    body .navbar-default ul {
+      visibility: hidden; }
+      body .navbar-default ul li {
+        display: inline;
+        padding: 5px; }
+        body .navbar-default ul li img {
+          width: 30px; }
+    body .navbar-default #vinculo {
+      visibility: hidden; }
+  body #principalSection {
+    height: 720px;
+    margin-top: 0px; }
+    body #principalSection #tituloDispositivos {
+      visibility: visible;
+      margin-top: -350px; }
+    body #principalSection #moviles {
+      margin-top: 20px; }
+      body #principalSection #moviles #movilPlayer {
+        margin-top: 40px;
+        visibility: visible;
+        width: 200px;
+        padding: 20px; }
+  body #titulo {
+    font-size: 60px;
+    margin-top: 150px; }
+  body iframe {
+    visibility: hidden;
+    margin-top: 10px;
+    height: 392px;
+    width: 100%;
+    border: none;
+    background-color: #C6C6C5; }
+  body #entidades {
+    background-color: #0F689B;
+    height: 200px; }
+    body #entidades img {
+      margin-top: 77px; }
+
+  footer #redes {
+    margin-top: -15px;
+    margin-left: -45px; }
+    footer #redes ul li {
+      display: inline;
+      padding: 5px; }
+      footer #redes ul li img {
+        width: 30px; }
+  footer #compania img {
+    width: 200px;
+    margin-top: -10px; } }
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  body img {
+    margin-top: 6px; }
+  body .navbar-default {
+    height: 120px;
+    margin-top: 0px; }
+    body .navbar-default ul {
+      visibility: hidden; }
+      body .navbar-default ul li {
+        display: inline;
+        padding: 5px; }
+        body .navbar-default ul li img {
+          width: 30px; }
+    body .navbar-default #vinculo {
+      visibility: hidden; }
+  body #principalSection {
+    height: 610px; }
+    body #principalSection #tituloDispositivos {
+      margin-top: -280px;
+      visibility: visible; }
+    body #principalSection #moviles {
+      margin-top: 20px; }
+      body #principalSection #moviles #movilPlayer {
+        margin-top: 20px;
+        visibility: visible;
+        width: 180px;
+        padding: 20px; }
+    body #principalSection #titulo {
+      font-size: 30x;
+      margin-top: 150px; }
+    body #principalSection iframe {
+      visibility: hidden;
+      margin-top: 22px;
+      width: 100%;
+      height: 300px; }
+  body #entidades {
+    background-color: #0F689B;
+    height: 100px; }
+    body #entidades img {
+      margin-top: 37px; }
+    body #entidades #dispositivos h2 {
+      visibility: visible; }
+    body #entidades #dispositivos p {
+      visibility: hidden; }
+      body #entidades #dispositivos p a {
+        visibility: hidden; }
+      body #entidades #dispositivos p img {
+        visibility: hidden; } }
+
+/*# sourceMappingURL=styleZoom.min.css.map */

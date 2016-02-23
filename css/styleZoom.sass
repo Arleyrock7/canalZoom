@@ -1,0 +1,516 @@
+//----------------------------------------
+//VARIABLES
+$color-fuente: white
+$tamanio-titulo: 30px
+$tamanio_1: 19px
+$tamanio_2: 31px
+$tamanio_4: 24px
+$font-normal: 100
+$font-normal2: 200
+$font-normal3: 300
+ 
+
+$padding-fuente: 5px
+
+$izquierda: left
+$centro: center
+$derecha: right
+$no: none
+
+$margen_1: 2px
+$margen_2: 25px
+$margen_3: 15px
+
+//----------------------------------------
+//COLORS
+$color-base: #00A6A8
+
+//----------------------------------------
+//MIXINS
+@mixin fontStyle 
+	color: $color-fuente
+	padding: $padding-fuente
+	font-size: $tamanio_1
+	text-align: $centro
+	margin-top: $margen_1
+
+@mixin vinculo
+	color: $color-fuente
+	padding: $padding-fuente
+	font-size: $tamanio_1
+	text-align: $derecha
+	margin-top: $margen_2
+	text-decoration: $no
+	font-weight: $font-normal
+
+@mixin titulo
+	color: white
+	margin-top: 120px
+	padding: 10px
+	font-size: 47px	
+@mixin titulo_2
+	margin-top: 55px
+	color: #E3E639
+	padding: 5px
+	font-size: 37px	
+	float: $izquierda
+	font-weight: $font-normal3
+@mixin titulo_3 
+	padding: 5px
+	font-size: 37px	
+	float: $centro
+	margin-top: 50px
+	font-weight: $font-normal3
+
+@mixin btn
+	width: 100%
+	height: 5550,875px
+	background-color: $color-base
+	padding: 12px
+	color: white
+	font-size: 24px
+	margin-top: 6px
+	font-weight: $font-normal2
+	border-bottom-color: #067065
+	border-bottom-width: 5px
+@mixin btnUp
+	width: 100%
+	height: 5550,875px
+	background-color: #E3E639
+	padding: 12px
+	color: $color-base
+	font-size: 24px
+	margin-top: 6px
+	font-weight: $font-normal2
+	border-bottom-color: #B7B92E
+	border-bottom-width: 5px
+	&:hover
+		background-color: #ccc
+		border-bottom-color: #9A9A9A
+		border-bottom-width: 5px
+
+
+//<style type=\"text/css\"> body { width: 800px GO } </style>
+//<style type=\"text/css\"> body { width: 90% GO } </style>
+body
+	padding: 0px
+	margin: 0px
+	img
+		margin-top: -10px
+		
+	.navbar-default
+		background-color: #0F689B
+		background-size: cover
+		border-color: #0F689B	
+		padding: 10px
+		#redes
+			margin-top: 35px
+			ul
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+
+	#principalSection
+		background-image: url('../images/backgrounds/background.png')
+		background-size: cover
+		height: 730px
+		margin-top: 0px
+		#tituloDispositivos
+			visibility: hidden
+		#moviles
+			#movilPlayer
+				visibility: hidden
+
+	#vinculo
+		@include vinculo
+		a
+			@include vinculo
+
+	#titulo
+		@include titulo
+#entidades
+	background-color: #0f689b
+	img
+		margin-top: -190px	
+p
+	color: white
+//font-style: italic	
+	a
+		font-style: inherit	
+		color: white
+		padding: 5px
+		border-radius: 20px
+		font-weight: $font-normal2
+		&:hover
+			color: #BCBF39
+
+footer
+	background-color: #0C3C51
+	background-size: cover
+	height: auto
+	padding-top: 50px
+	padding-bottom: 50px
+	hr
+		width: 100%
+	#redes
+		margin-top: 0px
+		margin-left: -45px
+		ul
+			li
+				display: inline
+				padding: 5px
+				img
+					width: 30px
+	#compania
+		img
+			padding: 10px
+
+	#mailTo
+		a
+			color: #1AA2DC
+			&:hover
+				color: gray
+	
+
+h2
+	color: white
+	
+
+
+
+//@media querys
+/* Large desktops and laptops */
+@media (min-width: 1900px) 
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1600px) and (max-width: 1899px)
+	body
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1400px) and (max-width: 1599px)
+	body
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1399px)
+	body
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 990px) and (max-width: 1199px)
+	body
+		img
+			margin-top: 8px
+		.navbar-default
+			#redes
+			margin-top: 0px
+			ul
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+			#texto
+				#texto_1	
+					margin-top: 20px
+				#texto_2
+			#numero
+				margin-top: 30px
+				font-size: 25px
+			#vinculo
+				margin-top: 40px
+		#principalSection
+			height: 700px
+			margin-top: 0px
+			#tituloDispositivos
+				visibility: hidden
+			#moviles
+				margin-top: 20px
+				#movilPlayer
+					margin-top: 20px
+					visibility: hidden
+		#titulo
+			margin-top: 150px
+
+		iframe
+			margin-top: 10px
+			height: 350px
+			width: 65%
+			border: none
+			background-color: #C6C6C5
+
+	footer
+		#redes
+			margin-top: -15px
+			margin-left: -45px
+			ul
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+		#compania
+			img
+				width: 120px
+				margin-top: -10px
+				
+
+
+/* Phones with resolutions high -- Portrait tablets and small desktops IMPORTANT SMARTPHONE SIZE*/
+@media (min-width: 768px) and (max-width: 991px) 
+	body
+		img
+			margin-top: 6px
+		.navbar-default
+			#redes
+			margin-top: 0px
+			ul
+				visibility: hidden
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+			#vinculo
+				visibility: hidden
+		#principalSection
+			height: 750px
+			margin-top: 0px
+			#tituloDispositivos
+				font-size: 50px
+				margin-top: -440px
+				visibility: visible
+			#moviles
+				margin-top: 100px
+				#movilPlayer
+					width: 200px
+					margin-top: -20px
+					visibility: visible
+					padding: 20px
+			#titulo
+				font-size: 80px
+				margin-top: 133px
+			iframe
+				visibility: hidden
+				margin-top: 10px
+				height: 470px
+				width: 100%
+		#entidades
+			background-color: #0F689B
+			height: 200px
+			img
+				margin-top: 80px
+
+	footer
+		#logoZoom
+			margin-top: -20px
+			width: 30%
+		#compania
+			img
+				width: 30%
+				margin: -5px
+		#redes
+			margin-top: -15px
+			margin-left: -45px
+			ul
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 100px
+		#compania
+			img
+				width: 400px
+				padding-top: 20px
+		p
+			font-size: 40px
+		a
+			font-size: 40px
+		
+
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px)
+	body
+		img
+			margin-top: 8px
+		.navbar-default
+			height: 125px
+			#redes
+			margin-top: 0px
+			ul
+				visibility: hidden
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+		
+			#vinculo
+				visibility: hidden
+		#principalSection
+			height: 720px
+			margin-top: 0px
+			#tituloDispositivos
+				visibility: visible
+				margin-top: -350px
+			#moviles
+				margin-top: 20px
+				#movilPlayer
+					margin-top: 40px
+					visibility: visible
+					width: 200px
+					padding: 20px
+		#titulo
+			font-size: 60px
+			margin-top: 150px
+		iframe
+			visibility: hidden
+			margin-top: 10px
+			height: 392px
+			width: 100%
+			border: none
+			background-color: #C6C6C5
+
+		#entidades
+			background-color: #0F689B
+			height: 200px
+			img
+				margin-top: 77px
+
+	footer
+		#redes
+			margin-top: -15px
+			margin-left: -45px
+			ul
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+		#compania
+			img
+				width: 200px
+				margin-top: -10px
+
+			
+			
+
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) 
+	body
+		img
+			margin-top: 6px
+		.navbar-default
+			height: 120px
+			#redes
+			margin-top: 0px
+			ul
+				visibility: hidden
+				li
+					display: inline
+					padding: 5px
+					img
+						width: 30px
+			#vinculo
+				visibility: hidden
+
+
+		#principalSection
+			height: 610px
+			#tituloDispositivos
+				margin-top: -280px
+				visibility: visible
+			#moviles
+				margin-top: 20px
+				#movilPlayer
+					margin-top: 20px
+					visibility: visible
+					width: 180px
+					padding: 20px
+			#titulo
+				font-size: 30x
+				margin-top: 150px	
+			iframe
+				visibility: hidden
+				margin-top: 22px
+				width: 100%
+				height: 300px
+		#entidades
+			background-color: #0F689B
+			height: 100px
+			img
+				margin-top: 37px
+		
+		
+			#dispositivos
+				h2
+					visibility: visible
+				p
+					visibility: hidden
+					a
+						visibility: hidden
+					img
+						visibility: hidden
+							
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+//$font-stack:    Helvetica, sans-serif
+//$primary-color: #333
+
+//body
+//  font: 100% $font-stack
+//  color: $primary-color
+
+
+
+
+//@mixin hide-text{
+//    overflow:hidden;
+//    text-indent:-9000px;
+//    display:block;
+//}
+//And I can just use it like this;
+
+
+//.logo{
+//    background: url("logo.png");
+//    height:100px;
+//    width:200px;
+//    @include hide-text;
+//}
+
+	
